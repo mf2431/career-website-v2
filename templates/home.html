@@ -15,13 +15,13 @@
       <img class="img-fluid" id="banner" src="https://website-trial--mf2431.repl.co/static/banner.jpg">
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo. Donec adipiscing tristique risus nec feugiat in. Non pulvinar neque laoreet suspendisse interdum. Ac tortor vitae purus faucibus ornare. Tincidunt tortor aliquam nulla facilisi. Ultricies mi quis hendrerit dolor magna eget. Ultrices gravida dictum fusce ut placerat orci nulla. Et egestas quis ipsum suspendisse. Feugiat vivamus at augue eget arcu dictum varius duis. Laoreet id donec ultrices tincidunt arcu non sodales.
       </p>
-      <h2>Section 2</h2>
-      <p>to-do section 3</p>
-      <h2>Section 4</h2>
+      <h2>Job Listing</h2>
       <div>
-      <button>Contact Us</button>
-        <p>whatever paragraph</p>
+        {% for detail in listing %}
+          {% include 'jobdetail.html' %}
+        {% endfor %}
       </div>
+      <button>Contact Us</button>
     </div>
   </body>
 </html>
