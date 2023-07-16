@@ -12,6 +12,7 @@ JOBS = [
    {'id': 2,
     'title': 'Receptionist',
     'location': 'Hull',
+    'salary': '$20k'
    },
   
    {'id': 3,
